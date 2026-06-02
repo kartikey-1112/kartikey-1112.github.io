@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Kartikey Mishra – Java Backend Developer</title>
+<title>Kartikey Mishra – Java Backend Engineer</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
 <style>
   /* ===== CSS VARIABLES ===== */
@@ -182,7 +182,7 @@
   }
   .btn-outline:hover { border-color: var(--cyan); color: var(--cyan); }
 
-  /* ===== AVATAR RING ENGINE ===== */
+  /* ===== AVATAR LAYER ===== */
   .hero-right {
     flex: 0 0 auto; display: flex; align-items: center; justify-content: center;
     position: relative; width: 280px; height: 280px; margin: 0 auto;
@@ -235,7 +235,7 @@
   .bd-card-text strong { font-family: var(--font-head); font-size: 0.85rem; font-weight: 700; color: var(--amber); }
   .bd-card-text span { font-size: 0.72rem; color: var(--muted); }
 
-  /* ===== MARQUEE ===== */
+  /* ===== TEXT MARQUEE ===== */
   .marquee-section {
     padding: 2.5rem 0; overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
     background: rgba(79,70,229,0.04);
@@ -265,11 +265,11 @@
   .about-stats { display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
   .stat-box {
     text-align: center; background: var(--card); border: 1px solid var(--border);
-    border-radius: 16px; padding: 1.2rem 1.5rem; flex: 1 1 100px;
+    border-radius: 16px; padding: 1.2rem 1.5rem; flex: 1 1 120px;
     transition: transform 0.25s, border-color 0.25s;
   }
   .stat-box:hover { transform: translateY(-4px); border-color: var(--indigo); }
-  .stat-num { font-family: var(--font-head); font-size: 2rem; font-weight: 800; color: var(--amber); }
+  .stat-num { font-family: var(--font-head); font-size: 1.8rem; font-weight: 800; color: var(--amber); }
   .stat-label { font-size: 0.75rem; color: var(--muted); margin-top: 0.25rem; }
   .about-edu { display: flex; flex-direction: column; gap: 1.2rem; }
   .edu-card {
@@ -442,20 +442,16 @@
 </head>
 <body>
 
-  <!-- LOADING SCREEN -->
   <div id="loader">
     <div class="loader-name">KARTIKEY MISHRA</div>
     <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
   </div>
 
-  <!-- CUSTOM MOUSE CURSORS -->
   <div id="cursor-dot"></div>
   <div id="cursor-ring"></div>
 
-  <!-- PARTICLES BACKGROUND LAYER -->
   <canvas id="particles-canvas"></canvas>
 
-  <!-- NAVIGATION BAR -->
   <nav>
     <div class="nav-logo">KM . DEV</div>
     <ul class="nav-links">
@@ -473,13 +469,12 @@
     </div>
   </nav>
 
-  <!-- HERO SECTION -->
   <section id="hero">
     <div class="hero-left">
-      <div class="hero-tag"><span></span> Available for Core Backend Roles</div>
+      <div class="hero-tag"><span></span> Available for Core Backend Engineering Roles</div>
       <h1 class="hero-name">Kartikey Mishra</h1>
-      <h2 class="hero-role">Java <strong>Backend Developer</strong> & System Designer</h2>
-      <p class="hero-desc">Building resilient enterprise APIs, optimized cloud infrastructure, and real-time distributed software pipelines that scale flawlessly.</p>
+      <h2 class="hero-role">Java <strong>Backend Engineer</strong> @ Cognizant</h2>
+      <p class="hero-desc">Building clean, reliable, and scalable enterprise backend systems that solve real-world industrial problems from API design to database tuning.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-primary">Let's Connect</a>
         <a href="#projects" class="btn btn-outline">View Portfolio</a>
@@ -494,85 +489,85 @@
         <div class="bd-card-icon">⚡</div>
         <div class="bd-card-text">
           <strong>Spring Boot</strong>
-          <span>Microservices Architecture</span>
+          <span>RESTful Services Specialist</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- INFINITE SCROLL SKILL TEXT MARQUEE -->
   <div class="marquee-section">
     <div class="marquee-track">
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>JAVA EE</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>JAVA</div>
       <div class="marquee-item"><span class="marquee-dot" style="background:var(--pink)"></span>SPRING BOOT</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>MICROSERVICES</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--amber)"></span>POSTGRESQL</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>DOCKER & K8S</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--pink)"></span>APACHE KAFKA</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>REDIS CACHING</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>JAVA EE</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>HIBERNATE ORM</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--amber)"></span>REST APIS</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>JPA PERSISTENCE</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--pink)"></span>JENKINS CI/CD</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>MYSQL DATABASE</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>JAVA</div>
       <div class="marquee-item"><span class="marquee-dot" style="background:var(--pink)"></span>SPRING BOOT</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>MICROSERVICES</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--amber)"></span>POSTGRESQL</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>DOCKER & K8S</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--pink)"></span>APACHE KAFKA</div>
-      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>REDIS CACHING</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>&nbsp;REACT.JS</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--amber)"></span>REST APIS</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--indigo)"></span>JPA PERSISTENCE</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--pink)"></span>JENKINS CI/CD</div>
+      <div class="marquee-item"><span class="marquee-dot" style="background:var(--cyan)"></span>MYSQL DATABASE</div>
     </div>
   </div>
 
-  <!-- ABOUT SECTION -->
   <section id="about">
-    <div class="section-label">01 / Story</div>
-    <h2 class="section-title">Engineering Reliable Systems<br>Behind the Interface</h2>
+    <div class="section-label">01 / Profile</div>
+    <h2 class="section-title">Engineering High-Performance<br>Distributed Services</h2>
     <div class="about-grid">
       <div class="about-text">
-        <p>Hello! I am a passionate software engineer specializing in <strong>robust backend architectures</strong>. I turn complex logic, unoptimized database schemas, and messy business rules into clean, fast, maintainable applications.</p>
-        <p>With an educational foundation built on algorithmic precision, I design services structured around horizontal scalability, clean domain models, and strict thread-safety execution models.</p>
+        <p>I am a dedicated **Java Developer** focused on designing backend systems that are clean, reliable, and practical. I enjoy turning complex enterprise ideas into production-ready software architectures.</p>
+        <p>Currently executing application modules at **Cognizant**, I focus on building high-performance systems, handling robust persistence mappings, and improving querying efficiency across distributed relational environments.</p>
         <div class="about-stats">
           <div class="stat-box">
-            <div class="stat-num">99%</div>
-            <div class="stat-label">API Uptime Targets</div>
+            <div class="stat-num">95%</div>
+            <div class="stat-label">JUnit Test Coverage Securement</div>
           </div>
           <div class="stat-box">
-            <div class="stat-num">40%+</div>
-            <div class="stat-label">Query Speedups Done</div>
+            <div class="stat-num">1500+</div>
+            <div class="stat-label">Employee Datasets Validated</div>
           </div>
         </div>
       </div>
       <div class="about-edu">
         <div class="edu-card">
-          <div class="edu-deg">Bachelor of Technology in Computer Science</div>
-          <div class="edu-school">Technical University Systems</div>
-          <div class="edu-year">Graduated 2024</div>
+          <div class="edu-deg">B.Tech in Computer Science Engineering</div>
+          <div class="edu-school">Graphic Era Deemed to be University, Dehradun</div>
+          <div class="edu-year">GPA: 8.62/10 | 2021 - 2025</div>
         </div>
         <div class="edu-card">
-          <div class="edu-deg">Advanced Enterprise Java Architect Specialization</div>
-          <div class="edu-school">Tech Certifications Academy</div>
-          <div class="edu-year">Professional Track</div>
+          <div class="edu-deg">Intermediate & Matriculation Councils</div>
+          <div class="edu-school">St. Thomas School, Gopiganj</div>
+          <div class="edu-year">ISC: 85.56% | ICSE: 81.4%</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WORK EXPERIENCE TIMELINE -->
   <section id="experience">
-    <div class="section-label">02 / Experience</div>
-    <h2 class="section-title">Professional Path</h2>
+    <div class="section-label">02 / Professional Track</div>
+    <h2 class="section-title">Experience & Internships</h2>
     <div class="timeline">
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="exp-card">
           <div class="exp-header">
             <div>
-              <h3 class="exp-title">Software Engineer – Backend Systems</h3>
-              <div class="exp-company">NexaCloud Global Solutions</div>
+              <h3 class="exp-title">Programmer Analyst Trainee / Software Engineer Trainee</h3>
+              <div class="exp-company">Cognizant Technology Solutions</div>
             </div>
-            <div class="exp-date">2024 – Present</div>
+            <div class="exp-date">August 2025 – Present</div>
           </div>
+          <p style="font-size:0.85rem; color:var(--amber); font-weight:600; margin-top:0.4rem;">Client Deployment: Liberty Mutual Insurance, USA</p>
           <ul class="exp-bullets">
-            <li>Refactored legacy monolith systems into modular Spring Boot microservices, decreasing production system failures by 30%.</li>
-            <li>Configured secure JSON Web Token authentication schemes mapping across multiple API Gateway custom routers.</li>
-            <li>Engineered structured asynchronous data layers utilizing Spring Boot JPA connecting to distributed relational platforms.</li>
+            <li>Developed and deployed enterprise-grade applications in the Insurance domain using Spring Boot, Spring MVC, and REST APIs.</li>
+            <li>Designed DTO design patterns, persistence mapping layers with JPA/Hibernate, and executed optimized SQL database queries.</li>
+            <li>Created unit testing blueprints using JUnit and Mockito to enforce an institutional 95% target code coverage standard.</li>
+            <li>Managed automated continuous delivery flows using Jenkins CI/CD pipelines, performed strict code reviews, and mapped business logic tasks inside fast-paced Agile sprints.</li>
+            <li>Provided direct production support engineering, performed defect triage, and analyzed feature requirements with global client stakeholders.</li>
           </ul>
         </div>
       </div>
@@ -581,150 +576,151 @@
         <div class="exp-card">
           <div class="exp-header">
             <div>
-              <h3 class="exp-title">Java Engineering Intern</h3>
-              <div class="exp-company">CoreSys Software Corp</div>
+              <h3 class="exp-title">Full Stack Summer Software Engineering Intern</h3>
+              <div class="exp-company">Century Pulp and Paper</div>
             </div>
-            <div class="exp-date">2023 – 2024</div>
+            <div class="exp-date">June 2024 – August 2024</div>
           </div>
           <ul class="exp-bullets">
-            <li>Optimized custom structural database indexes, cutting down user retrieval delays across major dashboards.</li>
-            <li>Wrote comprehensive endpoint testing modules utilizing JUnit and Mockito, bringing local platform structural test coverage up to 88%.</li>
+            <li>Designed and executed an interior colony complaints management web application using React.js, PHP, and MySQL.</li>
+            <li>Implemented native SMTP mail protocols to dispatch system updates to targeted structural utility departments instantly.</li>
+            <li>Migrated, sanitised, and validated 1500+ historical corporate employee schema logs from unstructured tabular sheets to active relational structures.</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TECHNICAL SKILLS MATRIX -->
   <section id="skills">
-    <div class="section-label">03 / Competence</div>
-    <h2 class="section-title">Technical Matrix</h2>
+    <div class="section-label">03 / Core Competency</div>
+    <h2 class="section-title">Technical Skillset Matrix</h2>
     <div class="skills-grid">
       <div class="skill-category">
-        <div class="skill-cat-title">Core Frameworks</div>
+        <div class="skill-cat-title">Languages & Frameworks</div>
         <div class="skill-bar-wrap">
-          <div class="skill-bar-label"><span>Java / J2EE Platform</span><span>90%</span></div>
+          <div class="skill-bar-label"><span>Java (SE/EE Ecosystem)</span><span>90%</span></div>
           <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%"></div></div>
         </div>
         <div class="skill-bar-wrap">
-          <div class="skill-bar-label"><span>Spring Boot / Spring Cloud</span><span>85%</span></div>
-          <div class="skill-bar-track"><div class="skill-bar-fill cyan" style="width: 85%"></div></div>
+          <div class="skill-bar-label"><span>Spring Boot / MVC / REST APIs</span><span>88%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill cyan" style="width: 88%"></div></div>
         </div>
         <div class="skill-bar-wrap">
-          <div class="skill-bar-label"><span>REST Web Services API</span><span>95%</span></div>
-          <div class="skill-bar-track"><div class="skill-bar-fill amber" style="width: 95%"></div></div>
+          <div class="skill-bar-label"><span>SQL (MySQL Relational Management)</span><span>85%</span></div>
+          <div class="skill-bar-track"><div class="skill-bar-fill amber" style="width: 85%"></div></div>
         </div>
       </div>
       <div class="skill-category">
-        <div class="skill-cat-title">Data & Cloud Infrastructure</div>
+        <div class="skill-cat-title">Ecosystem Capabilities</div>
         <div class="skills-tags" style="margin-top:0.5rem;">
-          <span class="skill-tag">PostgreSQL</span>
-          <span class="skill-tag">MySQL</span>
-          <span class="skill-tag">Hibernate ORM</span>
-          <span class="skill-tag">Redis Cache</span>
-          <span class="skill-tag">Apache Kafka</span>
-          <span class="skill-tag">Docker</span>
-          <span class="skill-tag">Kubernetes</span>
-          <span class="skill-tag">AWS EC2 & S3</span>
-          <span class="skill-tag">Maven</span>
+          <span class="skill-tag">JPA / Hibernate</span>
+          <span class="skill-tag">JUnit Testing</span>
+          <span class="skill-tag">Mockito Mocking</span>
+          <span class="skill-tag">Jenkins Pipelines</span>
+          <span class="skill-tag">Apache Maven</span>
           <span class="skill-tag">Git Version Control</span>
-          <span class="skill-tag">CI/CD Pipelines</span>
+          <span class="skill-tag">Postman API Testing</span>
+          <span class="skill-tag">IntelliJ IDEA</span>
+          <span class="skill-tag">React.js</span>
+          <span class="skill-tag">PHP Mappings</span>
+          <span class="skill-tag">TensorFlow & Keras</span>
+          <span class="skill-tag">OpenCV Vision</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- COMPACT FEATURED PROJECTS GRID -->
   <section id="projects">
     <div class="section-label">04 / Projects</div>
-    <h2 class="section-title">Recent Systems Work</h2>
+    <h2 class="section-title">Technical Systems Implementation</h2>
     <div class="projects-grid">
       <div class="proj-card">
-        <div class="proj-icon">📦</div>
-        <h3 class="proj-title">Distributed Logistics Pipeline</h3>
-        <p class="proj-desc">Designed an un-throttled event pipeline processing high-throughput inventory routing telemetry using Spring Cloud and Kafka clusters.</p>
+        <div class="proj-icon">🏥</div>
+        <h3 class="proj-title">Patient Appointment Management System (PAMS)</h3>
+        <p class="proj-desc">Constructed an asynchronous clinical platform featuring individual routing rules for Patients, Doctors, and Administrators. Engineered Spring Boot REST endpoints coupled with notification engines.</p>
         <div class="proj-tags">
           <span class="proj-tag">Spring Boot</span>
-          <span class="proj-tag pink">Kafka</span>
-          <span class="proj-tag cyan">Postgres</span>
+          <span class="proj-tag pink">MySQL</span>
+          <span class="proj-tag cyan">Maven</span>
         </div>
       </div>
       <div class="proj-card">
-        <div class="proj-icon">🔒</div>
-        <h3 class="proj-title">Fintech Distributed Wallet</h3>
-        <p class="proj-desc">Developed an isolated transaction accounting ledger using pessimistic multi-row level locks ensuring extreme ledger accuracy.</p>
+        <div class="proj-icon">🧮</div>
+        <h3 class="proj-title">Scientific GUI Calculator</h3>
+        <p class="proj-desc">Programmed an interactive scientific interface handling intensive trigonometric, exponential, and algebraic calculations via Java event-driven listeners.</p>
         <div class="proj-tags">
-          <span class="proj-tag">Java SE 17</span>
-          <span class="proj-tag pink">Redis</span>
-          <span class="proj-tag cyan">Docker</span>
+          <span class="proj-tag">Java SE</span>
+          <span class="proj-tag pink">Swing API</span>
+          <span class="proj-tag cyan">AWT Framework</span>
         </div>
       </div>
       <div class="proj-card">
-        <div class="proj-icon">📡</div>
-        <h3 class="proj-title">Reactive Real-Time Notifier</h3>
-        <p class="proj-desc">Constructed an asynchronous publisher-subscriber framework utilizing Spring WebFlux handling continuous live alerts via WebSockets.</p>
+        <div class="proj-icon">🏎️</div>
+        <h3 class="proj-title">Obstacle Avoidance Autonomous Vehicle</h3>
+        <p class="proj-desc">Designed an embedded systems robotics loop leveraging ultrasonic sensing matrices and reactive tracking algorithms on hardware units to implement automated collision routing.</p>
         <div class="proj-tags">
-          <span class="proj-tag">WebFlux</span>
-          <span class="proj-tag pink">RxJava</span>
-          <span class="proj-tag cyan">AWS AWS</span>
+          <span class="proj-tag">Arduino Embedded</span>
+          <span class="proj-tag pink">C++</span>
+          <span class="proj-tag cyan">Sensor Integration</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- HONORS AND ACHIEVEMENTS -->
   <section id="achievements">
-    <div class="section-label">05 / Milestones</div>
-    <h2 class="section-title">Certifications & Honors</h2>
+    <div class="section-label">05 / Credentials & Activities</div>
+    <h2 class="section-title">Milestones & Honors</h2>
     <div class="achieve-grid">
-      <div class="achieve-card">
-        <div class="achieve-icon">🏆</div>
-        <div class="achieve-text">
-          <strong>Internal Hackathon Finalist</strong>
-          <span>Developed an auto-scaling data aggregation microservice under a tight 36-hour development deadline window.</span>
-        </div>
-      </div>
       <div class="achieve-card">
         <div class="achieve-icon">📜</div>
         <div class="achieve-text">
-          <strong>Oracle Certified Professional</strong>
-          <span>Completed deep functional tracking validating native memory management models and concurrency utilities.</span>
+          <strong>Professional Technical Certifications</strong>
+          <span>Claude Code 101 Certification | AI Fluency Specialization | Advanced Model Context Protocol Ecosystems Tracking.</span>
+        </div>
+      </div>
+      <div class="achieve-card">
+        <div class="achieve-icon">🏅</div>
+        <div class="achieve-text">
+          <strong>National Leadership Recognition</strong>
+          <span>Awarded for stellar administrative contribution and logistics coordination management during the National Level Parasports Event.</span>
+        </div>
+      </div>
+      <div class="achieve-card">
+        <div class="achieve-icon">👥</div>
+        <div class="achieve-text">
+          <strong>Academic Class Representative</strong>
+          <span>Appointed liaison between university faculty boards and student batches across the four-year engineering program lifecycle.</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER CONTACT BLOCK -->
   <section id="contact">
     <div class="contact-ripple"></div>
     <div class="contact-ripple"></div>
     <div class="contact-ripple"></div>
     <div class="contact-inner">
-      <div class="section-label" style="margin-bottom:1rem;">06 / Reach Out</div>
-      <h2 class="section-title" style="margin-bottom:1rem; background: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Let's Build Something That Scales</h2>
-      <p style="color:var(--muted); line-height:1.7; margin-bottom:2rem;">Looking to scale your backend squad, or need clean code architectures built? Drop me a line anytime.</p>
+      <div class="section-label" style="margin-bottom:1rem;">06 / Connect</div>
+      <h2 class="section-title" style="margin-bottom:1rem; background: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Let's Build Scalable Architectures</h2>
+      <p style="color:var(--muted); line-height:1.7; margin-bottom:2rem;">I am actively open to discussing advanced backend opportunities and clean system code solutions.</p>
       <a href="mailto:km030255@gmail.com" class="contact-email">km030255@gmail.com</a>
       <div class="contact-links">
-        <a href="https://linkedin.com" target="_blank" class="contact-link">LinkedIn</a>
-        <a href="https://github.com/kartikey-1112" target="_blank" class="contact-link">GitHub</a>
-        <a href="#" class="contact-link">Download Resume (PDF)</a>
+        <a href="https://www.linkedin.com/in/kartikey-mishra11" target="_blank" class="contact-link">LinkedIn Profile</a>
+        <a href="https://github.com/kartikey-1112" target="_blank" class="contact-link">GitHub Repository</a>
+        <a href="https://leetcode.com" target="_blank" class="contact-link">LeetCode</a>
       </div>
     </div>
   </section>
 
-  <!-- COPYRIGHT FOOTER BANNER -->
   <footer>
-    <p>&copy; 2026 Kartikey Mishra. Crafted with strict engineering practices. All Rights Reserved.</p>
+    <p>&copy; 2026 Kartikey Mishra. Engineered with clean-code principles. All Rights Reserved.</p>
   </footer>
 
-  <!-- DYNAMIC LOGIC AND INTERACTIVE PARTICLES JAVASCRIPT LAYER -->
   <script>
-    // Un-freeze page visibility once site loads completely
     window.addEventListener('load', () => {
       const loader = document.getElementById('loader');
       if (loader) loader.classList.add('hidden');
       
-      // Trigger skill bars animation on load
       setTimeout(() => {
         document.querySelectorAll('.skill-bar-fill').forEach(bar => {
           const width = bar.style.width;
@@ -734,7 +730,7 @@
       }, 500);
     });
 
-    // Mobile Hamburger Menu Logic
+    // Mobile Navigation Logic Switch
     const hamburger = document.querySelector('.nav-hamburger');
     const navLinksContainer = document.querySelector('.nav-links');
     if (hamburger && navLinksContainer) {
@@ -769,7 +765,6 @@
       }
     });
 
-    // Linear interpolation loop smoothing large target canvas rings
     function smoothCursorLoop() {
       ringX += (mouseX - ringX) * 0.12;
       ringY += (mouseY - ringY) * 0.12;
@@ -781,7 +776,6 @@
     }
     smoothCursorLoop();
 
-    // Track active hover states elements to swell outer ring size
     const interactiveTargets = document.querySelectorAll('a, .btn, .proj-card, .nav-hamburger, .skill-tag');
     interactiveTargets.forEach(item => {
       item.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
@@ -848,4 +842,4 @@
     }
   </script>
 </body>
-</html> 
+</html>
